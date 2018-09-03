@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Naveen Test Automation Suite">
+
+	<test name="Free CRM App Test Cases">
+
+		<classes>
+			<class name="com.tests.LoginTest"></class>
+
+		</classes>
+	</test>
+</suite>

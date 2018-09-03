@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Naveen Test Automation Suite]">
+  <test thread-count="5" verbose="0" name="Free CRM App Test Cases(failed)">
+    <classes>
+      <class name="com.tests.LoginTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="loginTestCase"/>
+          <include name="verifyloginPageTitle"/>
+        </methods>
+      </class> <!-- com.tests.LoginTest -->
+    </classes>
+  </test> <!-- Free CRM App Test Cases(failed) -->
+</suite> <!-- Failed suite [Naveen Test Automation Suite] -->
