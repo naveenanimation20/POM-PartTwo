@@ -3,6 +3,11 @@
 
 <suite name="Naveen Test Automation Suite">
 
+	<listeners>
+		<listener
+			class-name="com.qa.listener.ExtentReporterListner.ExtentReporterNG" />
+	</listeners>
+
 	<test name="Free CRM App Test Cases">
 
 		<classes>

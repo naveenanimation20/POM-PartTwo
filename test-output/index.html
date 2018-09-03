@@ -141,8 +141,8 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: &apos;3.13.0&apos;, revision: &apos;2f0d292&apos;, time: &apos;2018-06-25T15:24:21.231Z&apos;
 System info: host: &apos;Administrators-MacBook-Pro-9.local&apos;, ip: &apos;fe80:0:0:0:142d:8670:49e8:d19d%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.4&apos;, java.version: &apos;1.8.0_144&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578706 (5f725d1b4f0a4a..., userDataDir: /var/folders/fd/lw5s91x96f9...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:54593}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 68.0.3440.106, webStorageEnabled: true}
-Session ID: a1fbb6779c8a234dc5c188e4b2608996
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578706 (5f725d1b4f0a4a..., userDataDir: /var/folders/fd/lw5s91x96f9...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:62950}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 68.0.3440.106, webStorageEnabled: true}
+Session ID: 075be23620863ad246c6048d5157b844
 *** Element info: {Using=xpath, value=//*[contains(text(),&apos;Logout&apos;)]}
 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
@@ -186,6 +186,9 @@ Session ID: a1fbb6779c8a234dc5c188e4b2608996
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Naveen Test Automation Suite&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.qa.listener.ExtentReporterListner.ExtentReporterNG&quot;/&gt;
+  &lt;/listeners&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Free CRM App Test Cases&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.tests.LoginTest&quot;/&gt;
@@ -232,16 +235,16 @@ data.addRows(2);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'loginTestCase')
 data.setCell(0, 2, 'com.tests.LoginTest')
-data.setCell(0, 3, 3771);
+data.setCell(0, 3, 4337);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'verifyloginPageTitle')
 data.setCell(1, 2, 'com.tests.LoginTest')
-data.setCell(1, 3, 9);
+data.setCell(1, 3, 10);
 window.suiteTableData['Naveen_Test_Automation_Suite']= { tableData: data, tableDiv: 'times-div-Naveen_Test_Automation_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 3 seconds</span>
+              <span class="suite-total-time">Total running time: 4 seconds</span>
               <div id="times-div-Naveen_Test_Automation_Suite">
               </div> <!-- times-div-Naveen_Test_Automation_Suite -->
             </div> <!-- times-div -->
@@ -276,25 +279,25 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">loginTestCase</span>
-                <span class="method-start">6073 ms</span>
+                <span class="method-start">5809 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">9847 ms</span>
+                <span class="method-start">10149 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">9939 ms</span>
+                <span class="method-start">10258 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">verifyloginPageTitle</span>
-                <span class="method-start">15060 ms</span>
+                <span class="method-start">15607 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">15071 ms</span>
+                <span class="method-start">15618 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
